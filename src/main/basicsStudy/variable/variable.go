@@ -12,4 +12,6 @@ func Function() {
 	fmt.Printf("a = %d\n", a)
 	*p = 250
 	fmt.Printf("a = %d\n", a)
+	fmt.Printf("%x", p)
+	fmt.Println()
 }
