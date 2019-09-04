@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"GoStudy/src/main/basicsStudy/grammar"
+	"GoStudy/src/main/basicsStudy/variable"
+)
 
 func main() {
-	fmt.Println("hello world")
+	// 1、基础语法
+	grammar.Function()
+	// 2、变量声明
+	variable.Function()
 }
