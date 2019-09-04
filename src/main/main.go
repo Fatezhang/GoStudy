@@ -1,8 +1,10 @@
 package main
 
 import (
+	"GoStudy/src/main/basicsStudy/dataType"
 	"GoStudy/src/main/basicsStudy/grammar"
 	"GoStudy/src/main/basicsStudy/variable"
+	"fmt"
 )
 
 func main() {
@@ -10,4 +12,7 @@ func main() {
 	grammar.Function()
 	// 2、变量声明
 	variable.Function()
+	// 2、结构体
+	man := dataType.GetMan
+	fmt.Println(man())
 }
