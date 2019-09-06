@@ -15,4 +15,10 @@ func main() {
 	// 2、结构体
 	man := dataType.GetMan
 	fmt.Println(man())
+	// 3、匿名函数
+	f := func(x, y int) int {
+		return x + y
+	}
+	result := f(1, 2)
+	println(result)
 }
